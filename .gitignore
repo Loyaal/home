@@ -1,6 +1,6 @@
 *
-
 # Exceptions
 !.gitignore
 !.gitmodules
 !.zshrc
+!.config/*
