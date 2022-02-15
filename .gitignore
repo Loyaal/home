@@ -1,8 +1,13 @@
-*
-# Exceptions
-!.gitignore
-!.gitmodules
-!.zshrc
-!.config/*
-!.gitconfig
+/*
+/*/
 
+# Exceptions
+!/.gitignore
+!/.gitmodules
+!/.zshrc
+!/.config/*
+!/.gitconfig
+!/.config/bspwm/
+!/.xinitrc
+!/.alacritty.yml
+!/README.md
