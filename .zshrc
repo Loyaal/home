@@ -11,12 +11,15 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-autoload -U promptinit; promptinit
-prompt pure
-fpath=($fpath "/home/user/.zfunctions")
-
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
+export ZSH=$HOME/.oh-my-zsh
 
 test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
+
+#Enable spaceship ZSH Theme
+ZSH_THEME="spaceship"
+
+#Enable OMZ plugins
+plugins=(git zsh-completions zsh-syntax-highlighting)
+
+source $ZSH/oh-my-zsh.sh
+
