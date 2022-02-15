@@ -35,3 +35,6 @@ font:
     bold:
         family: Inconsolata Nerd Font
     
+key_bindings:
+    - {key: V, mods: Control|Shift, action: Paste}
+    - {key: C, mods: Control|Shift, action: Copy}
