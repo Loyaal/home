@@ -4,21 +4,45 @@ Some configuration files required to setup a new home on a linux machine
 
 ## Requirements
 
-- alacritty terminal emulator
 - zsh
-- spaceship prompt
+- MesloLGM NF
+
+### ArchLinux Specific
+
+- alacritty terminal emulator
 - bspwm
 - sxhkb
-- nord-dircolors
-- Inconsolata Nerf Font
 
 ## Installation
 
 Clone git submodule
 
     git submodule init
-    git submodule update
+    git submodule update --recursive
 
-Add spaceship custom theme to OMZ themes
+### WSL / Windows Terminal
 
-    ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+Install brew
+
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Install oh-my-posh and use spaceship prompt
+
+    brew tap jandedobbeleer/oh-my-posh
+    brew install oh-my-posh
+    # Add following line to zshrc
+    eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/v$(oh-my-posh --version)/themes/spaceship.omp.json)"
+
+In settings.json of Windows Terminal, configure Linux profile to use Meslo Font
+
+    "font": 
+        {
+            "face": "MesloLGM NF"
+        },
+
+Activate Nord Dircolors
+
+    ln -s .nord-dircolors/src/dir_colors ~/.dir_colors
+    #Add following line to zshrc
+    test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
+
