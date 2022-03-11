@@ -1,3 +1,3 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
-	url = git@github.com:Loyaal/ohmyzsh.git
+	url = https://github.com/Loyaal/ohmyzsh.git
