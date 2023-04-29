@@ -15,7 +15,7 @@ export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$ZSH/custom/
 
 #Enable spaceship ZSH Theme
-ZSH_THEME="spaceship"
+ZSH_THEME="powerlevel10k/powerlevel10K"
 
 #Enable OMZ plugins
 plugins=(git zsh-completions zsh-syntax-highlighting)
