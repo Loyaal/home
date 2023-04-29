@@ -1,6 +1,0 @@
-[submodule ".oh-my-zsh"]
-	path = .oh-my-zsh
-	url = https://github.com/Loyaal/ohmyzsh.git
-[submodule ".lscolors"]
-	path = .lscolors
-	url = https://github.com/trapd00r/LS_COLORS.git
