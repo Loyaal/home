@@ -13,8 +13,6 @@ compinit
 
 export ZSH=$HOME/.oh-my-zsh
 
-test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
-
 #Enable spaceship ZSH Theme
 ZSH_THEME="spaceship"
 
