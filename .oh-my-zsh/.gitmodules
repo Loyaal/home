@@ -1,0 +1,18 @@
+[submodule "custom/plugins/ansiweather"]
+	path = custom/plugins/ansiweather
+	url = https://github.com/fcambus/ansiweather.git
+[submodule "custom/plugins/enhancd"]
+	path = custom/plugins/enhancd
+	url = https://github.com/b4b4r07/enhancd.git
+[submodule "custom/plugins/git-flow-completion"]
+	path = custom/plugins/git-flow-completion
+	url = https://github.com/bobthecow/git-flow-completion.git
+[submodule "custom/plugins/zsh-completions"]
+	path = custom/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "custom/plugins/zsh-syntax-highlighting"]
+	path = custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "custom/themes/spaceship-prompt"]
+	path = custom/themes/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt.git
