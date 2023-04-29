@@ -1,0 +1,9 @@
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/Loyaal/ohmyzsh.git
+[submodule ".pyenv"]
+	path = .pyenv
+	url = https://github.com/Loyaal/pyenv.git
+[submodule ".dircolors"]
+	path = .dircolors
+	url = https://github.com/nordtheme/dircolors.git
