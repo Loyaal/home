@@ -15,10 +15,13 @@ Some configuration files required to setup a new home on a linux machine
 
 ## Installation
 
-Clone git submodule
-
+    sudo apt -y install zsh
+    chsh -s $(which zsh)
+    # Restart your shell
     git submodule init
     git submodule update --recursive
+    source $HOME/.zshrc
+    ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 ### WSL / Windows Terminal
 
