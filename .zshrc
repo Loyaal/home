@@ -12,6 +12,7 @@ compinit
 # End of lines added by compinstall
 
 export ZSH=$HOME/.oh-my-zsh
+export ZSH_CUSTOM=$ZSH/custom/
 
 #Enable spaceship ZSH Theme
 ZSH_THEME="spaceship"
